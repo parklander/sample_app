@@ -31,6 +31,8 @@ group :test do
   gem 'rb-fsevent', '0.9.3'
   gem 'growl', '1.0.3'
   gem 'factory_girl_rails', '4.2.1'
+  gem 'cucumber-rails', require: false
+  gem 'database_cleaner'
 end
 
 group :production do
